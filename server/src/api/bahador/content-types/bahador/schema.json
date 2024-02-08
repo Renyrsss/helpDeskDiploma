@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bahadors",
+  "info": {
+    "singularName": "bahador",
+    "pluralName": "bahadors",
+    "displayName": "Bahador",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "userPhone": {
+      "type": "string"
+    },
+    "userSide": {
+      "type": "string"
+    },
+    "userComment": {
+      "type": "text"
+    },
+    "userQuery": {
+      "type": "string"
+    },
+    "Progress": {
+      "type": "enumeration",
+      "enum": [
+        "Сделано",
+        "Новая заявка",
+        "невыполнимо ",
+        "в работе"
+      ],
+      "default": "Новая заявка"
+    }
+  }
+}
